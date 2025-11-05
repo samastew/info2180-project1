@@ -304,16 +304,3 @@ nav a:hover {
     min-height: 20px;
 }
 
-/* Footer */
-footer {
-    background-color: #4A5568;
-    color: white;
-    padding: 40px 0;
-    text-align: center;
-}
-
-footer p {
-    margin: 0;
-    color: white;
-    text-align: center;
-}
