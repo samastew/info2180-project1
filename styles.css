@@ -304,3 +304,53 @@ nav a:hover {
     min-height: 20px;
 }
 
+/* Footer */
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .overview-hero .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .testing .container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .stories article {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .newsletter form {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .newsletter .btn {
+        width: 100%;
+    }
+    
+    nav ul {
+        gap: 15px;
+    }
+}
