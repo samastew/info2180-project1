@@ -182,3 +182,55 @@ nav a:hover {
 .cta .btn:hover {
     background-color: #38A169;
 }
+
+/* Stories Section */
+.stories {
+    padding: 80px 0;
+}
+
+.stories h2 {
+    color: #5A67D8;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.stories article {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 60px;
+    align-items: flex-start;
+}
+
+.stories article img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.article-body {
+    flex: 1;
+}
+
+.article-body h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #2D3748;
+}
+
+.article-body p {
+    color: #718096;
+    margin-bottom: 15px;
+}
+
+.article-body a {
+    color: #5A67D8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article-body a:hover {
+    text-decoration: underline;
+}
