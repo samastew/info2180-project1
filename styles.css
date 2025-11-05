@@ -139,3 +139,46 @@ nav a:hover {
     color: #718096;
     margin: 0;
 }
+
+/* COVID Testing Section */
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 60px 0;
+}
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.testing-desciption {
+    flex: 2;
+}
+
+.testing-desciption h2 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.testing-desciption p {
+    margin: 0;
+    color: #E2E8F0;
+}
+
+.cta .btn {
+    background-color: #48BB78;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.cta .btn:hover {
+    background-color: #38A169;
+}
